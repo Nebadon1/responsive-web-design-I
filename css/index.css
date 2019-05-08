@@ -65,7 +65,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+p{
+	line-height: 18px;
+}
 .container{
 	width: 1024px;
 	margin: auto;
@@ -77,9 +79,10 @@ nav{
 	margin: 10px 0 0 46px;
 }
 nav a{
-   color:#ccc;
+   color:#B5B0B0;
    margin: 0 20px;
    padding: 10px;
+   font-weight: bold;
 }
 
 .menu-logo {
@@ -89,19 +92,20 @@ nav a{
 }
 
 .logo{
-	margin: 9px 0 0 62px;
+	margin: 8px 0 0 62px;
 }
 
 header{
 	display:flex;
 	margin-top: 63px;
-    margin-left: 168px;
+	margin-left: 168px;
+	margin-bottom: 74px;
 }
 .box{
 	width: 400px;
     margin-top: 60px;
     margin-left: -22px;
-    font-size: 71px;
+    font-size: 72px;
     box-sizing: border-box;
     text-align: center;
 	/*border: 5px solid salmon;*/
@@ -123,33 +127,36 @@ header{
 	font-size: 17px;
     border: 1px solid black;
     padding: 2px 43px;
-    vertical-align: 12px;
+    vertical-align: 17px;
 	
 }
 
-
+.about-container{
+	display: flex;
+	margin-bottom: 26px;
+}
 
  
 .about{
 	width: 440px;
 	padding: 5px;
-	margin: auto;
-	box-sizing: border-box;
-	display: inline-block;
+	margin-left: 68px;
+	
 	/*border: 5px solid salmon;*/
 }
  
 .about2{
 	width: 440px;
 	padding: 5px;
-	margin: auto;
-	box-sizing: border-box;
-	display: inline-block;
-	padding-bottom: 38px;
+	
 	/*border: 5px solid salmon;*/
 }
 
-.thebox{
+.middle-img{
+	margin-left: 76px;
+}
+
+/*.thebox{
 	float: left;
 	width: 33.33%;
 	padding: 10px;
@@ -161,25 +168,52 @@ header{
 	content: "";
 	display: table;
 	clear: both;
+}*/
+.theboxcontainer{
+	display: flex;
+    margin-left: 73px;
+    margin-right: 69px;
+    margin-top: 29px;
+    margin-bottom: 34px;
+}
+
+.thebox{
+	padding-right: 19px;
+}
+
+.thebox p{
+	margin-top: 17px;
 }
 
 .linebreak1{
-	border-top: 1px solid black;
-	padding-top:17px;
-	padding-bottom: 26px;
+	border-top: 2px solid black;
+    padding-top: 17px;
+    padding-bottom: 14px;
+    width: 880px;
+    margin-left: 73px;
 }
 
+
 .linebreak{
-	border-top: 1px solid black;
+	border-top: 2px solid black;
+    width: 880px;
+    margin-left: 73px;
 }
 
 .contactbox{
-	padding-top: 51px;
-	padding-bottom: 51px;
+	padding-top: 35px;
+    padding-bottom: 40px;
+    margin-left: 73px;
 }
 
 footer{
 	text-align: center;
+}
+.contactbox p{
+	line-height: 16px
+}
+address{
+	margin-top: -2px;
 }
 
 
