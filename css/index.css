@@ -71,7 +71,7 @@ p{
 .container{
 	max-width: 1024px;
 	margin: 0 auto;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 
 }
 nav{
@@ -219,9 +219,9 @@ address{
 
 @media(max-width: 800px){
 	.container{
-	width: 100%;
-	margin: 0 auto;	
-	display:inline-block;
+		width: 100%;
+		margin: 0 auto;	
+		display:inline-block;
 	}
 	.menu-logo {
 		width: 100%;
@@ -232,7 +232,7 @@ address{
 		margin-left: 30px;
 	}
 	.logo {
-		width: 19%;
+		width: 24%;
 		margin: 0 auto;
 		
 	}
@@ -241,9 +241,15 @@ address{
 	}
 
 	.box{
-		justify-content: center;
-		margin: 0 auto;
-		display: block;
+		width: 100%;
+    	margin-top: 0px;
+    	margin-right: 136px;
+	}
+	.about {
+		width: 50%;
+		padding: 5px;
+		margin-left: 40px;
+		
 	}
 
 	 .middle-img{
@@ -251,11 +257,30 @@ address{
 		margin: 0 auto;
 		display: block;
 	 }
-	 .linebreak{
-		 widows: 90%;
-		 max-width: 0 auto;
-		 display: inline-;
-	 }
+	 .linebreak1{
+		width: 720px;
+		border-top: 2px solid black;
+		padding: 17px 0 14px;
+		margin-left: 40px;
+	}
+	.linebreak{
+	width: 720px;
+    border-top: 2px solid black;
+    padding: 17px 0 14px;
+    margin-left: 40px;
+	}
+	.theboxcontainer {
+		display: flex;
+		margin-left: 40px;
+		margin-right: 69px;
+		margin-top: 29px;
+		margin-bottom: 34px;
+	}
+	.contactbox {
+		padding-top: 35px;
+		padding-bottom: 40px;
+		margin-left: 40px;
+	}
 }
 @media(max-width: 500px){
 
